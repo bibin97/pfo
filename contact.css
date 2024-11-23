@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(13, 3, 42);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: white;
+    margin-left: 400px;
+}
+.contact-info h1 h2 h3{
+    font-size: 40px;
+}
+.btn:hover{
+    background: transparent;
+    columns: rgb(16, 228, 104);
+    box-shadow: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: -42px;
+    padding: 37px;
+    text-align: center;
+}
+.contact-info .btn-sci .sci a:hover{
+    background: rgb(16, 228, 104);
+    color: #1f242d;
+    box-shadow: 0 0 10px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(16, 228, 104);
+    border: 2px solid rgb(16, 228, 104);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(16, 228, 104);
+    font-size: 16px;
+    color: #1f242d;
+    font-weight: 600;
+    transition: .5s;
+    margin-left: 11px;
+}
